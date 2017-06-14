@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="triangle" class="com.Bridgeit.SpringProject.Triangle">
+		<property name="pointA" ref="Fpoint"></property>
+		<property name="pointB" ref="Spoint"></property>
+		<property name="pointC" ref="Tpoint"></property>
+	</bean>
+	
+	
+	<bean id="triangle2" class="com.Bridgeit.SpringProject.Triangle">
+		<property name="pointA" ref="Fpoint"></property>
+		<property name="pointB" ref="Spoint"></property>
+		<property name="pointC" ref="Tpoint"></property>
+	</bean>
+
+
+	<bean id="Fpoint" class="com.Bridgeit.SpringProject.Point">
+		<property name="ponitX" value="0"></property>
+		<property name="ponitY" value="1"></property>
+	</bean>
+	
+	
+	<bean id="Spoint" class="com.Bridgeit.SpringProject.Point">
+		<property name="ponitX" value="2"></property>
+		<property name="ponitY" value="1"></property>
+	</bean>
+	
+	<bean id="Tpoint" class="com.Bridgeit.SpringProject.Point">
+		<property name="ponitX" value="0"></property>
+		<property name="ponitY" value="1"></property>
+	</bean>
+</beans>
