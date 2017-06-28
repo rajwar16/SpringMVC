@@ -1,0 +1,83 @@
+/* 
+Credits: Bit Repository
+CSS Library: http://www.bitrepositiry.com/
+*/
+
+html, body 
+{
+padding: 0;
+border: 0px none;
+font-size: 12px;
+font-family: Verdana;
+}
+
+table
+{
+font-size: 12px;
+font-family: Verdana;
+}
+
+#notification_error
+{
+border: 1px solid #A25965;
+height: auto;
+width: auto;
+padding: 4px;
+background: #F8F0F1;
+text-align: center;
+-moz-border-radius: 5px;
+}
+
+#notification_ok
+{
+border: 1px #567397 solid;
+height: auto;
+width: auto;
+padding: 4px;
+background: #f5f9fd;
+text-align: center;
+-moz-border-radius: 5px;
+}
+
+.object_ok
+{
+border: 1px solid green; 
+color: #333333; 
+}
+
+.object_error
+{
+border: 1px solid #AC3962; 
+color: #333333; 
+}
+
+.button
+{
+border: 1px solid #999999; 
+border-top-color: #CCCCCC; 
+border-left-color: #CCCCCC; 
+
+background: white;
+color: #333333; 
+
+padding: 5px;
+
+font-size: 13px;
+-moz-border-radius: 3px;
+}
+
+/* Input, Textarea */
+input, textarea
+{
+margin: 5 5 5 0;
+padding: 2px; 
+
+border: 1px solid #999999; 
+border-top-color: #CCCCCC; 
+border-left-color: #CCCCCC; 
+
+color: #333333; 
+
+font-size: 13px;
+-moz-border-radius: 3px;
+}
